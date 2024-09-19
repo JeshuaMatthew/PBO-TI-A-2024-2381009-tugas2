@@ -22,8 +22,8 @@ public class Soal {
 
     public static void pilihJenisBangunDatar(){
         Scanner input = new Scanner(System.in);
-        int Pilihan = input.nextInt();
-        switch (Pilihan){
+        int pilihan = input.nextInt();
+        switch (pilihan){
             case 1 :
                 System.out.print("Masukan sisi persegi : ");
                 int sisi = input.nextInt();
