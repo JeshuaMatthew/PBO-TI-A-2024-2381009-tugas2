@@ -27,7 +27,7 @@ public class Soal {
             case 1 :
                 System.out.print("Masukan sisi persegi : ");
                 int sisi = input.nextInt();
-                System.out.println("Luas persegi : " + hitungLuas(sisi) + "\n" + "Keliling Persegi : " + hitungKeliling(sisi));
+                System.out.println("Luas persegi : " + hitungLuas(sisi) + "\n" + "Keliling persegi : " + hitungKeliling(sisi));
                 break;
             case 2 :
                 System.out.print("Masukan panjang persegi : ");
@@ -46,10 +46,10 @@ public class Soal {
     }
 
     public static void main(String[] args) {
-        System.out.println("Masukan Bangun Datar : \n");
+        System.out.println("Masukan bangun datar : \n");
         System.out.println("1.Persegi");
-        System.out.println("2.Persegi Panjang");
-        System.out.print("3.Lingkaran\nMasukan Pilihan : ");
+        System.out.println("2.Persegi panjang");
+        System.out.print("3.Lingkaran\nMasukan pilihan : ");
         pilihJenisBangunDatar();
     }
 }
