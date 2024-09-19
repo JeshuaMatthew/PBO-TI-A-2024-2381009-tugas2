@@ -39,7 +39,7 @@ public class Soal {
             case 3 :
                 System.out.print("Masukan jari - jari lingkaran : ");
                 int jariJari = input.nextInt();
-                System.out.println("Luas lingkaran : " + hitungLuas(jariJari,Math.PI) + "\n" + "Keliling Persegi : " + hitungKeliling(jariJari,Math.PI));
+                System.out.println("Luas lingkaran : " + hitungLuas(jariJari,Math.PI) + "\n" + "Keliling lingkaran : " + hitungKeliling(jariJari,Math.PI));
                 break;
         }
 
