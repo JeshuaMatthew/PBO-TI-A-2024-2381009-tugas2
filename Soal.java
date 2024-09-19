@@ -37,7 +37,7 @@ public class Soal {
                 System.out.println("Luas persegi panjang : " + hitungLuas(panjang,lebar) + "\n" + "Keliling Persegi : " + hitungKeliling(panjang,lebar));
                 break;
             case 3 :
-                System.out.print("Masukan Jari - Jari : ");
+                System.out.print("Masukan jari - jari lingkaran : ");
                 int jariJari = input.nextInt();
                 System.out.println("Luas lingkaran : " + hitungLuas(jariJari,Math.PI) + "\n" + "Keliling Persegi : " + hitungKeliling(jariJari,Math.PI));
                 break;
