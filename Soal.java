@@ -7,8 +7,8 @@ public class Soal {
     public static double hitungLuas(int panjang, int lebar){
         return panjang * lebar;
     }
-    public static double hitungLuas(int jariJari, double Phi){
-        return Phi * jariJari * jariJari;
+    public static double hitungLuas(int jariJari, double Pi){
+        return Pi * jariJari * jariJari;
     }
     public static double hitungKeliling(int sisi){
         return sisi * 4;
@@ -16,8 +16,8 @@ public class Soal {
     public static double hitungKeliling(int panjang, int lebar){
         return 2 * (panjang + lebar);
     }
-    public static double hitungKeliling(int jariJari, double Phi){
-        return 2 * Phi * jariJari;
+    public static double hitungKeliling(int jariJari, double Pi){
+        return 2 * Pi * jariJari;
     }
 
     public static void pilihJenisBangunDatar(){
